@@ -1,0 +1,10 @@
+Anagram is a word or phrase formed by rearranging the letter of different word or phrase, typically using all all the
+original letters only once
+
+example: restful --> fluster
+
+Sol:
+
+Step 1: check size if not equal return false
+Step 2: if step 1 returns true then sort both the arrays, or change the String to array
+Step 3: compare each word/number/symbol at the same location if all matches return true

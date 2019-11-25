@@ -1,0 +1,10 @@
+Problem: Reverse an Array T[]
+Complexity: O(N)
+
+In place mean without any extra memory, we have to use same array which we have used to creat our array
+
+sol:
+
+Step 1: swap first and last element in array
+Step 2: increase first index by one and decrease last element by one
+Step 3: repeat step one until firstIndex is <= lastIndex
